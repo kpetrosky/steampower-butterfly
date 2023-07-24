@@ -1,0 +1,286 @@
+
+:root{
+  --honolulu-blue: #2176aeff;
+--argentinian-blue: #57b8ffff;
+--tigers-eye: #b66d0dff;
+--hunyadi-yellow: #fbb13cff;
+--tomato: #fe6847ff;
+--chocolate-cosmos: #4f000bff;
+--claret: #720026ff;
+--amaranth: #ce4257ff;
+--coral: #ff7f51ff;
+--sandy-brown: #ff9b54ff;--licorice: #0e0004ff;
+--dark-purple: #31081fff;
+--rosewood: #6b0f1aff;
+--red-violet: #b91372ff;
+--magenta: #fa198bff
+--onyx: #36393bff;
+--uranian-blue: #a5d8ffff;
+--light-blue: #afd0d6ff;
+--french-gray: #bfb6bbff;
+--rosy-brown: #c49799ff;
+--tomato: #ef6351ff;
+--salmon: #f38375ff;
+--melon: #f7a399ff;
+--melon-2: #fbc3bcff;
+--misty-rose: #ffe3e0ff;
+--turquoise: #5dd9c1ff;
+--aquamarine: #acfcd9ff;
+--african-violet: #b084ccff;
+--ultra-violet: #665687ff;
+--russian-violet: #190933ff;
+--burnt-sienna: #de6b48ff;
+--buff: #e5b181ff;
+--melon: #f4b9b2ff;
+--tea-green: #daedbdff;
+--sky-blue: #7dbbc3ff;
+--black: #080705ff;
+--licorice: #362023ff;
+--tyrian-purple: #700548ff;
+--glaucous: #7272abff;
+--vista-blue: #7899d4ff;}
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b084ccff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #b084ccff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-title {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-tabs {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-link.active {
+  background-color: #fff;
+  color: #007bff;
+  border-radius: 5px;
+}
+
+/* Main content styles */
+.App-content {
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+.App-footer {
+  background-color: #b084ccff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .nav-tabs {
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin: 5px 0;
+  }
+}
+
+footer {
+  background-color: #b084ccff;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+/* Projects.css (example styles) */
+
+.projects-container {
+  padding: 20px;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.project-card p {
+  margin: 10px 0;
+}
+
+.project-card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.project-card a:hover {
+  background-color: #0056b3;
+}
+
+/* Projects.css */
+
+.projects-container {
+  padding: 20px;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px 4px 0 0;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px 4px 0 0;
+}
+
+.project-card p {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.project-card a:hover {
+  background-color: #0056b3;
+}
